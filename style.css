@@ -5,10 +5,32 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Roboto, sans-serif;
 }
 
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.head, .content1 {
+    color: white;
+    background-color: #1F2937;
+}
+.head {
+    padding: 10px;
+    justify-content: space-around;
+}
+.head-left {
+    font-weight: bold;
+    font-size: large;
+}
+.head-right {
+    gap: 10px;
+    font-size: small;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
