@@ -14,13 +14,15 @@
     align-items: center;
 }
 
-.head, .content1 {
+.darkblue {
     color: white;
     background-color: #1F2937;
 }
-.head {
+.head, .content1 {
     padding: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
 }
 .head-left {
     font-weight: bold;
