@@ -1,0 +1,8 @@
+/* Set everything to border-box sizing and remove padding and margins. */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
