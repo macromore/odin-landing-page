@@ -127,3 +127,9 @@ div.column2 {
     border-radius: 5px;
     padding: 5px 20px;
 }
+.foot {
+    padding: 50px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
