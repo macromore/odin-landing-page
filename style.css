@@ -51,15 +51,18 @@ h1 {
 div.column2 {
     background-color: gray;
     padding: 50px;
-    width: 500px;
+    min-width: 500px;
     align-self: stretch;
+}
+.column1 {
+    flex-direction: column;
 }
 #button {
     font-weight: bold;
-    background-color: blue;
+    background-color: #3882F6;
     border-radius: 5px;
+    padding: 5px 25px;
     align-self: flex-start;
-    padding: 5px 10px;
 }
 .content2 {
     flex-direction: column;
